@@ -1,4 +1,6 @@
 HelloWorld::Application.routes.draw do
+  get "greeter/hello"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
